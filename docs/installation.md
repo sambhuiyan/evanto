@@ -4,7 +4,7 @@
 
 ## Before you start
 
-You need an Apple silicon Mac (M-series), macOS 26 or later, and a ChatGPT account with Codex access for AI replies. Choose **Apple menu → About This Mac** to check your chip and macOS version. The packaged app includes the native Codex runtime and the Bangla speech model. Allow about 1 GB for the installed app, plus space for the download.
+You need an Apple silicon Mac (M-series), macOS 26 or later, and a ChatGPT account with Codex access for AI replies. Choose **Apple menu → About This Mac** to check your chip and macOS version. The packaged app includes the native Codex runtime and an on-device speech model. Allow about 1 GB for the installed app, plus space for the download.
 
 ## Which 1.5.0 download should I choose?
 
@@ -32,7 +32,7 @@ Apple’s Gatekeeper assesses downloaded apps on first launch. A development-sig
 | **Microphone** | Microphone | Transcribe nearby speech. The microphone and Mac audio have independent mute controls. |
 | **Mac task → Control** | Accessibility | Send cursor and keyboard input to the selected application during a typed task. |
 
-1. In **Settings → Capture**, choose the screen or window and the spoken language. For Bangla, choose **বাংলা (বাংলাদেশ)**. Other languages may need a first-use speech asset download. [How to change the spoken language](user-guide.md#change-the-spoken-language)
+1. In **Settings → Capture**, choose the screen or window and the spoken language. Select the language you expect to hear. Some languages require a speech model download on first use. [How to change the spoken language](user-guide.md#change-the-spoken-language)
 2. Click **Start live**, then turn on the input you want. Play a few seconds of speech or speak into the microphone. Look for the source label and text in the floating panel.
 3. Press **⌥ ⇧ Space** to toggle the panel. **Show answer panel** in the workspace brings it to the current display. For a meeting, select **Entire Screen → Shared Screen** in the meeting app. [Sharing guide](user-guide.md#share-or-record)
 
@@ -61,6 +61,6 @@ If the script cannot locate the **native** Codex executable, set `EVANTO_CODEX_B
 | --- | --- |
 | Start Live keeps requesting permission | Open **System Settings → Privacy & Security → Screen & System Audio Recording**. If the entry points to an older copy, replace it with the installed app and follow macOS’s relaunch prompt. |
 | The panel is invisible on the built-in screen | In **Settings → Screen sharing → Answer panel**, select **Native panel with Clean Share**, then **Show answer panel**. |
-| Bangla speech has English-looking captions | In **Settings → Capture → Spoken language**, select **বাংলা (বাংলাদেশ)**. Check whether the speaker is coming through the input labeled **Mac audio** or **Microphone**. |
+| Captions mishear words or use an unexpected script | Open **Settings → Capture → Spoken language** and select the speaker’s language and region. Check whether the speaker is coming through the input labeled **Mac audio** or **Microphone**. |
 | The meeting shows the answer panel | In the meeting picker, share **Shared Screen** (sometimes **Screen 2**). If the added display is unavailable, choose the **Shared Screen** window. |
 | The first model response asks for sign-in | Open **Evanto → Settings** and complete **Sign in with ChatGPT** using the account you intend to use for replies. |

@@ -7,7 +7,7 @@
   <a href="docs/installation.md"><img src="docs/assets/architecture.svg" alt="Apple silicon"></a>
 </p>
 
-Evanto is an **AI interview assistant for Mac** with **multilingual live transcription**. Follow interview questions in the floating panel and get written answers grounded in your CV and notes. Choose Bangla (Bangladesh) for captions in বাংলা, or select English or another speech language available on your Mac.
+Evanto is an **AI interview assistant for Mac**. It supports **live captions in multiple languages** for questions you hear through your microphone or Mac audio. Select the language of the interview, follow the captions in the floating answer panel, and get written answers grounded in your CV and notes.
 
 [Download for Apple silicon](https://github.com/sambhuiyan/evanto/releases/download/v1.5.0/Evanto-1.5.0-arm64.zip) · [Installation guide](docs/installation.md) · [Change the spoken language](docs/user-guide.md#change-the-spoken-language) · [User guide](docs/user-guide.md) · [GitHub releases](https://github.com/sambhuiyan/evanto/releases)
 
@@ -24,7 +24,7 @@ Evanto is an **AI interview assistant for Mac** with **multilingual live transcr
 ## Your first conversation
 
 1. Open **Evanto → Settings → Sign in with ChatGPT**. Your account supplies the available models.
-2. In **Settings → Capture**, choose a display or window and the spoken language. Select **বাংলা (বাংলাদেশ)** for Bangladeshi speech in Bengali script.
+2. In **Settings → Capture**, choose a display or window. Open **Spoken language** and select the language the interviewer will speak.
 3. Choose **Start live**. Turn on **Mac audio** to listen to playback or **Microphone** to listen to someone nearby. You can mute either one mid-conversation.
 4. Read the live transcript in the floating panel. With **Auto-answer** enabled, Evanto waits for a pause and answers grouped sentences together. **Answer now** submits the current passage immediately.
 
@@ -49,4 +49,4 @@ The Mac handles audio capture and transcription. Answering a question sends the 
 
 Developed by **Md Adnan Sami Bhuiyan**. Evanto’s original source and documentation are available under the [MIT License](LICENSE).
 
-Evanto bundles the OpenAI Codex CLI for sign-in and model access, whisper.cpp for on-device decoding, and the Bengali.AI Whisper model for Bangla captions. The interface uses DM Sans and DM Serif Text. Each component retains its upstream license. [Codex notices](Packaging/Codex) · [Speech model and engine notices](Packaging/Speech) · [Font licenses](Packaging/Fonts)
+Evanto uses the OpenAI Codex CLI for sign-in and model access. Apple Speech and the bundled Whisper model power on-device captions. The speech notices credit the model authors and whisper.cpp contributors. The interface uses DM Sans and DM Serif Text. Each component retains its upstream license. [Codex notices](Packaging/Codex) · [Speech model and engine notices](Packaging/Speech) · [Font licenses](Packaging/Fonts)

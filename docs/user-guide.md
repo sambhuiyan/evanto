@@ -2,7 +2,7 @@
 
 [Overview](../README.md) · [Installation](installation.md)
 
-Evanto is a native macOS menu-bar assistant. Its bundled OpenAI Codex runtime signs in directly with ChatGPT and calls the models available to that account. Screen capture, transcription, file operations, and cursor movement run on the Mac. All replies appear as text in the workspace and floating answer panel.
+Evanto is a multilingual AI interview assistant that runs in the Mac menu bar. Its bundled OpenAI Codex runtime signs in directly with ChatGPT and calls the models available to that account. Screen capture, transcription, file operations, and cursor movement run on the Mac. All replies appear as text in the workspace and floating answer panel.
 
 ## Use the app
 
@@ -22,7 +22,7 @@ The default **Pause before answering** is three seconds. In **Settings → Captu
 
 1. Click **Evanto** in the Dock to open the workspace, then select **Settings** in the sidebar.
 2. Scroll to **Capture** and open **Spoken language**. Choose the language being spoken. This setting applies to both **Mac audio** and **Microphone**. You can change it during a Live session.
-3. For speech from Bangladesh, select **বাংলা (বাংলাদেশ) · Bangla (Bangladesh)**. Evanto uses the bundled model to write captions in Bengali script. For English or another listed language, select its entry. The available Apple speech models depend on your Mac, and macOS may download the selected model on first use.
+3. If the list has regional choices, select the one closest to the speaker. For example, for an interview in Mexican Spanish, choose **Spanish (Mexico)** if it appears. The list reflects the speech models available on your Mac. Some need a download on first use.
 4. Start or continue **Live** with your chosen audio input enabled. Look under **Live transcript** in the floating panel for the source label and new captions. Evanto remembers your selection for the next session.
 
 ## Work with files and the cursor
@@ -49,7 +49,7 @@ Choose how answers appear under **Settings → Screen sharing → Answer panel**
 
 ## Context and storage
 
-- Choose **Settings → Capture → Spoken language** for Mac audio and microphone captions. Choose **বাংলা (বাংলাদেশ) · Bangla (Bangladesh)** for Bengali-script captions using the bundled Bengali.AI Whisper model. Other choices use the speech models supported by this Mac. macOS downloads those models on first use. The floating panel shows live captions above the answer. Each enabled input has its own recognizer. The transcript keeps both speakers’ words and applies revisions to the matching audio times. Muting an input or stopping the session lets the recognizer finish the speech already captured. [Apple SpeechAnalyzer](https://developer.apple.com/documentation/speech/speechanalyzer)
+- Evanto transcribes audio locally in the language selected under **Settings → Capture → Spoken language**. The floating panel shows live captions above the answer. Each enabled input has its own recognizer. The transcript keeps both speakers’ words and applies revisions to the matching audio times. Muting an input or stopping the session lets the recognizer finish the speech already captured. [Apple SpeechAnalyzer](https://developer.apple.com/documentation/speech/speechanalyzer)
 - Spoken and typed questions can include recent conversation, enabled speech context, and saved references. Screen sharing, clean recording, and navigating between pages run locally. Only the **Send screenshot** action adds the current shared view to a chat request.
 - A typed Mac task sends the file content and selected app window images it needs through the same signed-in Codex connection. The selected app and folder are fixed for that task. The app checks the target window before sending mouse or keyboard input.
 - The library accepts PDFs, including scanned pages with readable text, Word documents, PowerPoint and Excel Open XML files, OpenDocument files, RTF, images, and UTF-8 or BOM-marked UTF-16 text such as Markdown, CSV, JSON, and source code. Each import supports up to 32 MB of input and 4 MB of extracted text.
