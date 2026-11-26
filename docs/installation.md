@@ -8,9 +8,9 @@ You need an Apple silicon Mac (M-series), macOS 26 or later, and a ChatGPT accou
 
 ## Install a release
 
-1. Open **GitHub releases** above. Choose a version with an **arm64.dmg** asset. Read its signing and notarization status in the release notes. GitHub’s source archives are for building the app yourself.
-2. Download the DMG and its matching **.sha256** file. To verify version 1.5.0, open Terminal and run the commands below from the folder containing both files. Look for **OK**.
-3. Open the DMG in Finder. Drag **Evanto** onto **Applications**, eject the disk image, and open **Applications → Evanto**.
+1. Open **GitHub releases** above. Choose the **arm64.dmg** installer or the **Evanto-1.5.0-arm64.zip** app archive. The release notes identify the signer for each asset. GitHub’s separately labeled **Source code** downloads are for building the app yourself.
+2. Download the chosen asset and its matching **.sha256** file. To verify version 1.5.0, open Terminal and run the commands below from the folder containing both files. For the app archive, use the filename ending in **.zip.sha256**. Look for **OK**.
+3. Open the DMG in Finder, drag **Evanto** onto **Applications**, and eject the disk image. For the ZIP, double-click the archive to extract **Evanto.app**, then drag the app into **Applications**. Launch it from there.
 4. In **Settings**, choose **Sign in with ChatGPT** and complete the browser sign-in. If the bundled Codex runtime already recognizes your account, your model choices appear immediately.
 
 ```sh
