@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+  <key>CFBundleIdentifier</key><string>studio.evanto.mac</string>
+  <key>CFBundleName</key><string>Evanto</string>
+  <key>CFBundleDisplayName</key><string>Evanto</string>
+  <key>CFBundleExecutable</key><string>Evanto</string>
+  <key>CFBundlePackageType</key><string>APPL</string>
+  <key>CFBundleIconFile</key><string>Evanto</string>
+  <key>CFBundleShortVersionString</key><string>1.5.0</string>
+  <key>CFBundleVersion</key><string>10</string>
+  <key>NSHumanReadableCopyright</key><string>Developed by Md Adnan Sami Bhuiyan. Copyright © 2026 Md Adnan Sami Bhuiyan. MIT License.</string>
+  <key>LSMinimumSystemVersion</key><string>26.0</string>
+  <key>NSHighResolutionCapable</key><true/>
+  <key>NSAccessibilityUsageDescription</key><string>Evanto uses the cursor and keyboard in the app you choose for a typed Mac task.</string>
+  <key>NSScreenCaptureUsageDescription</key><string>Evanto uses the selected display or window for screenshots you send, Clean Share, and recordings you save.</string>
+  <key>NSAudioCaptureUsageDescription</key><string>Evanto transcribes audio playing on your Mac when Mac audio is on.</string>
+  <key>NSMicrophoneUsageDescription</key><string>Evanto transcribes nearby speech during a live session when the microphone is on.</string>
+  <key>NSSpeechRecognitionUsageDescription</key><string>Evanto converts live audio to text on this Mac so it can answer spoken questions.</string>
+</dict></plist>

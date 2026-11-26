@@ -1,0 +1,5 @@
+The Bengali speech model is Bengali.AI's tugstugi Bengali ASR Whisper medium,
+distributed under Apache License 2.0. The WinShades project converted the weights
+to GGML and quantized them to five bits. Evanto uses those weights unmodified.
+https://huggingface.co/bengaliAI/tugstugi_bengaliai-asr_whisper-medium
+https://huggingface.co/winshades/bengaliai-whisper-medium-ggml
