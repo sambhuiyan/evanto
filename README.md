@@ -1,12 +1,25 @@
-<p align="center"><img src="docs/assets/evanto.png" alt="Evanto app icon" width="96" height="96"></p>
+<p align="center"><img src="docs/assets/evanto-banner.png" alt="Evanto, an AI interview assistant for Mac" width="100%"></p>
 
-# Evanto
+<p align="center">
+  <a href="Package.swift"><img src="docs/assets/swift.svg" alt="Built with Swift"></a>
+  <a href="LICENSE"><img src="docs/assets/mit.svg" alt="MIT License"></a>
+  <a href="docs/installation.md"><img src="docs/assets/macos.svg" alt="macOS 26 or later"></a>
+  <a href="docs/installation.md"><img src="docs/assets/architecture.svg" alt="Apple silicon"></a>
+</p>
 
 Evanto is an **AI interview assistant for Mac** with **multilingual live transcription**. Follow interview questions in the floating panel and get written answers grounded in your CV and notes. Choose Bangla (Bangladesh) for captions in বাংলা, or select English or another speech language available on your Mac.
 
-**macOS 26+ · Apple silicon · ChatGPT sign-in through Codex**
-
 [Download for Apple silicon](https://github.com/sambhuiyan/evanto/releases/download/v1.5.0/Evanto-1.5.0-arm64.zip) · [Installation guide](docs/installation.md) · [Change the spoken language](docs/user-guide.md#change-the-spoken-language) · [User guide](docs/user-guide.md) · [GitHub releases](https://github.com/sambhuiyan/evanto/releases)
+
+## Inside Evanto
+
+**The workspace** keeps the interview question, written answer, and follow-up together. This sample conversation uses a fictional checkout test.
+
+![Evanto workspace showing a practice interview about a checkout bug and how the fix was tested](docs/assets/workspace.png)
+
+**The floating answer panel** shows the latest caption above the answer. The same follow-up is visible here while the rest of the desktop stays available.
+
+<img src="docs/assets/answer-panel.png" alt="Floating Evanto panel with the Mac audio caption, written answer and Send screenshot control" width="490">
 
 ## Your first conversation
 

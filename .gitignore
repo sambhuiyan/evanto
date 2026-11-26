@@ -20,6 +20,13 @@
 !/docs/*.md
 !/docs/assets/
 !/docs/assets/evanto.png
+!/docs/assets/evanto-banner.png
+!/docs/assets/workspace.png
+!/docs/assets/answer-panel.png
+!/docs/assets/swift.svg
+!/docs/assets/mit.svg
+!/docs/assets/macos.svg
+!/docs/assets/architecture.svg
 !/Packaging/
 !/Packaging/Info.plist
 !/Packaging/Evanto.icns
