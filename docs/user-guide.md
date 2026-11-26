@@ -18,6 +18,13 @@ Interview answers use the most relevant experience in your reference library. Fo
 
 The default **Pause before answering** is three seconds. In **Settings → Capture**, choose five seconds for speakers who pause between the setup and the follow-up, or two seconds for faster replies. The floating panel shows the complete spoken prompt above its answer.
 
+## Change the spoken language
+
+1. Click **Evanto** in the Dock to open the workspace, then select **Settings** in the sidebar.
+2. Scroll to **Capture** and open **Spoken language**. Choose the language being spoken. This setting applies to both **Mac audio** and **Microphone**. You can change it during a Live session.
+3. For speech from Bangladesh, select **বাংলা (বাংলাদেশ) · Bangla (Bangladesh)**. Evanto uses the bundled model to write captions in Bengali script. For English or another listed language, select its entry. The available Apple speech models depend on your Mac, and macOS may download the selected model on first use.
+4. Start or continue **Live** with your chosen audio input enabled. Look under **Live transcript** in the floating panel for the source label and new captions. Evanto remembers your selection for the next session.
+
 ## Work with files and the cursor
 
 Choose **Mac task** beside the message field and type the task. The folder button selects where Evanto can list, read, create, edit, move, and trash items. New text files and edits use UTF-8. The initial working folder is **~/Library/Application Support/Evanto/Workspace**. Selecting a different folder applies to subsequent tasks.

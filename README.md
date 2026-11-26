@@ -2,11 +2,11 @@
 
 # Evanto
 
-A native Mac assistant that turns a spoken question into live captions and a written answer. Follow a conversation in English or বাংলা, ask about a screenshot, or bring your own notes into the conversation.
+Evanto is an **AI interview assistant for Mac** with **multilingual live transcription**. Follow interview questions in the floating panel and get written answers grounded in your CV and notes. Choose Bangla (Bangladesh) for captions in বাংলা, or select English or another speech language available on your Mac.
 
 **macOS 26+ · Apple silicon · ChatGPT sign-in through Codex**
 
-[Download for Apple silicon](https://github.com/sambhuiyan/evanto/releases/download/v1.5.0/Evanto-1.5.0-arm64.zip) · [Installation guide](docs/installation.md) · [User guide](docs/user-guide.md) · [GitHub releases](https://github.com/sambhuiyan/evanto/releases)
+[Download for Apple silicon](https://github.com/sambhuiyan/evanto/releases/download/v1.5.0/Evanto-1.5.0-arm64.zip) · [Installation guide](docs/installation.md) · [Change the spoken language](docs/user-guide.md#change-the-spoken-language) · [User guide](docs/user-guide.md) · [GitHub releases](https://github.com/sambhuiyan/evanto/releases)
 
 ## Your first conversation
 

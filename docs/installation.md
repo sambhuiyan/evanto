@@ -32,7 +32,7 @@ Apple’s Gatekeeper assesses downloaded apps on first launch. A development-sig
 | **Microphone** | Microphone | Transcribe nearby speech. The microphone and Mac audio have independent mute controls. |
 | **Mac task → Control** | Accessibility | Send cursor and keyboard input to the selected application during a typed task. |
 
-1. In **Settings → Capture**, choose the screen or window and the spoken language. For Bangla, choose **বাংলা (বাংলাদেশ)**. Other languages may need a first-use speech asset download.
+1. In **Settings → Capture**, choose the screen or window and the spoken language. For Bangla, choose **বাংলা (বাংলাদেশ)**. Other languages may need a first-use speech asset download. [How to change the spoken language](user-guide.md#change-the-spoken-language)
 2. Click **Start live**, then turn on the input you want. Play a few seconds of speech or speak into the microphone. Look for the source label and text in the floating panel.
 3. Press **⌥ ⇧ Space** to toggle the panel. **Show answer panel** in the workspace brings it to the current display. For a meeting, select **Entire Screen → Shared Screen** in the meeting app. [Sharing guide](user-guide.md#share-or-record)
 
