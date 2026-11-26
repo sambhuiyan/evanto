@@ -6,6 +6,10 @@
 
 You need an Apple silicon Mac (M-series), macOS 26 or later, and a ChatGPT account with Codex access for AI replies. Choose **Apple menu → About This Mac** to check your chip and macOS version. The packaged app includes the native Codex runtime and the Bangla speech model. Allow about 1 GB for the installed app, plus space for the download.
 
+## Which 1.5.0 download should I choose?
+
+**Use the ZIP for first installation.** Evanto.app is signed with the Developer ID of **Repairebel, Inc.** and has a stapled Apple notarization ticket. Gatekeeper accepted the app extracted from both packages. The optional DMG uses the team’s Apple Development signature on the disk image itself. Gatekeeper rejected that outer signature during verification.
+
 ## Install a release
 
 1. Open **GitHub releases** above. Choose the **arm64.dmg** installer or the **Evanto-1.5.0-arm64.zip** app archive. The release notes identify the signer for each asset. GitHub’s separately labeled **Source code** downloads are for building the app yourself.

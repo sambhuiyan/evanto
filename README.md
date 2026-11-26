@@ -6,7 +6,7 @@ A native Mac assistant that turns a spoken question into live captions and a wri
 
 **macOS 26+ · Apple silicon · ChatGPT sign-in through Codex**
 
-[Installation guide](docs/installation.md) · [User guide](docs/user-guide.md) · [GitHub releases](https://github.com/sambhuiyan/evanto/releases)
+[Download for Apple silicon](https://github.com/sambhuiyan/evanto/releases/download/v1.5.0/Evanto-1.5.0-arm64.zip) · [Installation guide](docs/installation.md) · [User guide](docs/user-guide.md) · [GitHub releases](https://github.com/sambhuiyan/evanto/releases)
 
 ## Your first conversation
 
